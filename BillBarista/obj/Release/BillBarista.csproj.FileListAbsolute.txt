@@ -1,0 +1,33 @@
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\bin\Release\BillBarista.exe.config
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\bin\Release\BillBarista.exe
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\bin\Release\BillBarista.pdb
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.csprojResolveAssemblyReference.cache
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.csproj.ResolveComReference.cache
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\Themes\Theme.baml
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\MainWindow.g.cs
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\App.g.cs
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista_MarkupCompile.cache
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista_MarkupCompile.lref
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\MainWindow.baml
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.g.resources
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.Properties.Resources.resources
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.csproj.GenerateResource.Cache
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.exe
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Release\BillBarista.pdb
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\bin\Release\BillBarista.exe.config
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\bin\Release\BillBarista.exe
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\bin\Release\BillBarista.pdb
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.csprojAssemblyReference.cache
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.csproj.ResolveComReference.cache
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\Themes\Theme.baml
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\MainWindow.g.cs
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\App.g.cs
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista_MarkupCompile.cache
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista_MarkupCompile.lref
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\MainWindow.baml
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.g.resources
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.Properties.Resources.resources
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.csproj.GenerateResource.cache
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.exe
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.pdb
+C:\Users\CoPaXoN\source\repos\Segment\SegmentUI\obj\Release\BillBarista.csproj.CoreCompileInputs.cache

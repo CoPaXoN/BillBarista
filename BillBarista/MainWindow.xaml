@@ -1,0 +1,169 @@
+﻿<Window x:Class="BillBarista.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BillBarista"
+        mc:Ignorable="d" FontSize="18" FlowDirection="RightToLeft" 
+        Title="Bill Barista" Height="350" Width="800" WindowState="Maximized">
+    <Window.Resources>
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="MaxHeight" Value="36" />
+        </Style>
+    </Window.Resources>
+    
+    <Grid>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Image Grid.Column="3" Grid.Row="1" Margin="4" 
+               Source="pack://application:,,,/BillBarista;component/resources/BillBarista.png"
+               HorizontalAlignment="Right" Grid.RowSpan="4" Grid.ColumnSpan="2" 
+               MaxWidth="400" MinWidth="100" MaxHeight="100"/>
+
+        <Button Content="טען קובץ חודשי"
+                Grid.Column="1" Grid.Row="1"
+                Margin="4"
+                x:Name="LoadMontlyFile"
+                Click="LoadMontlyFile_Click" />
+
+        <Button Content="טען קובץ קטלוג"
+                Grid.Column="1" Grid.Row="2"
+                Margin="4"
+                x:Name="LoadCatalogFile"
+                Click="LoadCatalogFile_Click" />
+
+        <ComboBox x:Name="ChooseVendor"
+                  Grid.Column="1" Grid.Row="3"
+                  Margin="4"
+                  SelectedIndex="1"
+                  MaxHeight="36">
+            
+            <ComboBoxItem>בחר ספק</ComboBoxItem>
+            <ComboBoxItem>Segment</ComboBoxItem>
+        </ComboBox>
+
+        <Button Content="!Go"
+                x:Name="RunJob"
+                Grid.Column="2" Grid.Row="1"
+                Grid.RowSpan="3" Grid.ColumnSpan="1"
+                MinHeight="70"
+                MinWidth="100"
+                Margin="25,4,4,4" Click="RunJob_Click"/>
+
+        <!--<Button Content="בדיקה"
+                x:Name="check"
+                Grid.Column="4" Grid.Row="1"
+                Grid.RowSpan="3" Grid.ColumnSpan="1"
+                MinHeight="70"
+                MinWidth="100"
+                MaxWidth="150"
+                HorizontalAlignment="Left"
+                Margin="4,4,4,4" Click="check_Click" RenderTransformOrigin="0.5,0.657"/>-->
+
+        <DataGrid x:Name="Errors" AutoGenerateColumns="False" RowHeaderWidth="0"
+                  Grid.Column="1" Grid.Row="5" Grid.ColumnSpan="4" Margin="4" ColumnWidth="*"
+                  CanUserAddRows="false" >
+            <DataGrid.Columns>
+
+                <DataGridTemplateColumn Header="מס' חשבונית" >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock FlowDirection="LeftToRight" 
+                                       TextWrapping="WrapWithOverflow"
+                                       HorizontalAlignment="Center" 
+                                       Text="{Binding InvoiceNumber}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="גיליון">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding RecordType}" 
+                                       TextWrapping="WrapWithOverflow"
+                                       HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="שדה"  >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock FlowDirection="LeftToRight"
+                                       TextWrapping="WrapWithOverflow"
+                                       HorizontalAlignment="Center" 
+                                       Text="{Binding FieldName}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="הבעיה"  >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock HorizontalAlignment="Center" 
+                                       TextWrapping="WrapWithOverflow"
+                                       Text="{Binding Issue}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="ערך נוכחי"  >
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock FlowDirection="LeftToRight" 
+                                       HorizontalAlignment="Center" 
+                                       TextWrapping="WrapWithOverflow"
+                                       Text="{Binding CurrentValue}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <!--<DataGridTemplateColumn Header="הערך הנכון" >
+                        <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding CorrectValue}"
+                                     TextWrapping="WrapWithOverflow"
+                                     x:Name="correctValue"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>-->
+                
+            </DataGrid.Columns>
+            
+        </DataGrid>
+
+        <TextBlock Text="נבנה על ידי ישראל כהנוב"
+                   Grid.Column="1" Grid.Row="6" Margin="4" 
+                   Grid.ColumnSpan="3"/>
+
+        <TextBlock Grid.Column="4" Grid.Row="6" Margin="4" HorizontalAlignment="Right">
+            <Hyperlink NavigateUri="http://www.google.com">
+                 לתמיכה לחץ כאן
+            </Hyperlink>
+        </TextBlock>
+        
+    </Grid>
+    
+</Window>

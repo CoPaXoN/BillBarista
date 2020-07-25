@@ -1,0 +1,17 @@
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\bin\Debug\SegmentUI.exe.config
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\bin\Debug\SegmentUI.exe
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\bin\Debug\SegmentUI.pdb
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.csprojResolveAssemblyReference.cache
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\MainWindow.g.cs
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\App.g.cs
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI_MarkupCompile.cache
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI_MarkupCompile.lref
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\MainWindow.baml
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.g.resources
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.Properties.Resources.resources
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.csproj.GenerateResource.Cache
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.exe
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.pdb
+c:\users\nncahanois\onedrive - nestle\visual studio 2015\Projects\Segment\SegmentUI\obj\Debug\SegmentUI.csproj.ResolveComReference.cache
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Debug\Themes\Theme.baml
+C:\Users\nncahanois\OneDrive - NESTLE\Visual Studio 2015\Projects\Segment\SegmentUI\obj\Debug\App.baml
